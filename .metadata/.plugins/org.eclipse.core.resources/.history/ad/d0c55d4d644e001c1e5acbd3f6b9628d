@@ -1,0 +1,16 @@
+package com.hcl.constructorinj;
+
+public class College 
+{
+	private String collegeName;
+	private int collegeCode;
+	public College(String collegeName, int collegeCode) {
+		super();
+		this.collegeName = collegeName;
+		this.collegeCode = collegeCode;
+	}
+	@Override
+	public String toString() {
+		return "College [collegeName=" + collegeName + ", collegeCode=" + collegeCode + "]";
+	}
+}

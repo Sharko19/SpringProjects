@@ -1,0 +1,10 @@
+package com.hcl.springjavabased;
+
+public class PetrolSparkignition implements CarEngine {
+
+	public void rotate() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

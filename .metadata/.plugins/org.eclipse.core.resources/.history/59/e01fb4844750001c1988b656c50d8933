@@ -1,0 +1,28 @@
+package com.hcl.javaannotationbased;
+
+import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+import com.hcl.annotaionBased.ColdDrink;
+
+@Component
+public class Audi 
+{
+	@Autowired
+	//@Qualifier("mpfi")
+	ColdDrink coldDrink;
+	public ColdDrink getColdDrink() 
+	{
+		return coldDrink;
+	}
+	public void setColdDrink(ColdDrink coldDrink) 
+	{
+		this.coldDrink = coldDrink;
+	}
+	public void eat()
+	{
+	System.out.println("Menu in the list are Samosa or Pizza along with Coldrink");
+	coldDrink.drink();
+	}
+}

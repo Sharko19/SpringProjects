@@ -1,0 +1,14 @@
+package com.hcl.com.hcl.observerdesignpattern;
+
+public class Subscriber 
+{
+	private String name;
+	private Channel channel= new Channel();
+
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+		
+	
+}

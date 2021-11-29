@@ -1,0 +1,26 @@
+package com.hcl.annotaionBased;
+
+import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Breakfast 
+{
+	@Autowired
+	//@Qualifier("mpfi")
+	ColdDrink coldDrink;
+
+	public ColdDrink getColdDrink() {
+		return coldDrink;
+	}
+
+	public void setColdDrink(ColdDrink coldDrink) {
+		this.coldDrink = coldDrink;
+	}
+	public void eat()
+	{
+	System.out.println("Automatic car, petrol");
+	coldDrink.drink();
+	}
+}

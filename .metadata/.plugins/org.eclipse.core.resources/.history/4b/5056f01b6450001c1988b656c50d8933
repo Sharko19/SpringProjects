@@ -1,0 +1,5 @@
+package com.hcl.com.hcl.observerdesignpattern;
+
+public class Channel {
+
+}

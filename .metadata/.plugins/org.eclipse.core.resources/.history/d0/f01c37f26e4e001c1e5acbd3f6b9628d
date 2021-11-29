@@ -1,0 +1,10 @@
+package com.hcl.javaannotationbased;
+
+public class Mpfi implements Engine {
+
+	public void rotate() {
+		System.out.println("Most Advance MPFI-Multiple point Fuel Injection Engine");
+
+	}
+
+}

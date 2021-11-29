@@ -1,0 +1,10 @@
+package com.hcl.javaannotationbased;
+
+public class Mpfi implements Engine {
+
+	public void rotate() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

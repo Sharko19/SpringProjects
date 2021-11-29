@@ -1,0 +1,24 @@
+package com.hcl.annotaionBased;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Party 
+{
+	ColdDrink coldDrink;
+	
+	public ColdDrink getColdDrink() 
+	{
+		return coldDrink;
+	}
+	public void setColdDrink(ColdDrink coldDrink) 
+	{
+		this.coldDrink = coldDrink;
+	}
+	public void eat()
+	{
+	System.out.println("Menu in the list are Samosa or Pizza along with Coldrink");
+	coldDrink.drink();
+	}
+
+}

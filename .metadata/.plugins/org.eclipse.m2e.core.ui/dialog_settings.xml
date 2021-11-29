@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Shash\Spring Projects\javaannotationbased\src\main\java\com\hcl\javaannotationbased\Dtsi.java"/>
+			<item value="C:\Users\Shash\Spring Projects\javaannotationbased\src\main\java\com\hcl\javaannotationbased\App.java"/>
+			<item value="C:\Users\Shash\Spring Projects\javaannotationbased\src\main\java\com\hcl\javaannotationbased\Audi.java"/>
+			<item value="C:\Users\Shash\Spring Projects\springjavabased\src\main\java\com\hcl\springjavabased\App.java"/>
+			<item value="C:\Users\Shash\Spring Projects\springdemo\src\main\java\com\hcl\springdemo\App.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.hcl.com.hcl.observerdesignpattern"/>
+			<item value="com.hcl.annotationbaseddemo"/>
+			<item value="com.hcl.springxmlbased"/>
+			<item value="com.hcl.javaAnnotation"/>
+			<item value="com.hcl"/>
+			<item value="com.hcl.constructorinj"/>
+			<item value="com.hcl.javaannotationbased"/>
+			<item value="com.hcl.stereotypeannotation"/>
+			<item value="com.hcl.springjavabased"/>
+			<item value="com.hcl.springdemo"/>
+		</list>
+		<list key="groupId">
+			<item value="com.hcl"/>
+		</list>
+		<list key="artifactId">
+			<item value="com.hcl.observerdesignpattern"/>
+			<item value="annotationbaseddemo"/>
+			<item value="springxmlbased"/>
+			<item value="javaAnnotation"/>
+			<item value="constructorinj"/>
+			<item value="javaannotationbased"/>
+			<item value="stereotypeannotation"/>
+			<item value="springjavabased"/>
+			<item value="springdemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="http://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

@@ -1,0 +1,11 @@
+package com.hcl.springxmlbased;
+
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+
+public class Car implements InitializingBean, DisposableBean;
+{
+	private String carBrand;
+	private String carColor;
+	private Config config;
+}

@@ -1,0 +1,9 @@
+package com.hcl.javaannotationbased;
+
+public class Audi {
+
+public void config()
+{
+	System.out.println("Automatic car, petrol");
+}
+}

@@ -1,0 +1,32 @@
+package com.hcl.springjavabased;
+
+public class Car {
+	private String name;
+	private int colorCode;
+
+	public Car(int colorCode) {
+		super();
+		this.colorCode = colorCode;
+	}
+
+	public Car(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getColorCode() {
+		return colorCode;
+	}
+
+	public void setColorCode(int colorCode) {
+		this.colorCode = colorCode;
+	}
+}

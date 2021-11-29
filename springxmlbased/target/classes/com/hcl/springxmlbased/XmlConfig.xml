@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+    ">
+    <bean id = "car" class="com.hcl.springxmlbased.Car" init-method="customInitMethod" destroy-method="customDestroyMethod">
+    <constructor-arg name="carBrand" value="Jaguar"></constructor-arg>
+    <constructor-arg name="carColor" value="Black"></constructor-arg>
+    <constructor-arg name="config" ref="config"></constructor-arg>
+    </bean>
+    
+    <bean id="car2" class="com.hcl.springxmlbased.Car" autowire="byName" />
+    
+    <bean id="config" class="com.hcl.springxmlbased.Config" scope="prototype">
+		<property name="engine" value="1.2 litre MPFI Petrol Engine"></property>
+		<property name="airbag" value="6"></property>
+	</bean>
+	
+	<bean id="CustomBeanPostProcessor" class="com.hcl.springxmlbased.CustomBeanPostProcessor">
+	</bean>
+    
+    </beans>
